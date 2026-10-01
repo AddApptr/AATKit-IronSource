@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta3"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -39,18 +39,18 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATIronSourceAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATIronSourceAdapter.zip",
-            checksum: "5589e7935131bf67c8b6dc265cda3904c29f9d580b2eb612cda323cfc74674fa"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATIronSourceAdapter.zip",
+            checksum: "ee4ef9dcf241d06ce3aa09ce28f6a9bfb31a35d9d8b4b670398c34546450eb43"
         ),
         .binaryTarget(
             name: "AATIronSourceAdQualitySDK",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/IronSourceAdQualitySDK.zip",
-            checksum: "bf79cf91590935f895fc0c0c2e130f44432c467322e7a4eff89f172f023fe06f"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/IronSourceAdQualitySDK.zip",
+            checksum: "aef5b794af7e72eab77da4637c9a80cd4e4adb3e1353d91d778995e0053ec936"
         ),
         .binaryTarget(
             name: "AATIronSource",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/IronSource.zip",
-            checksum: "d4910fe37e4054657823286967225caa19d97e56b1df1551e81fa05b6990ca83"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/IronSource.zip",
+            checksum: "3e70acf924c0bd0c68f37c5efa7b11daec417718488773960ba89b9e9e2c7e92"
         ),
     ]
 )
